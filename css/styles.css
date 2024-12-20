@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif; /* Fuente legible y común */
+    background-color: azure; /* Fondo gris claro para un aspecto limpio */
+    color: #333; /* Texto gris oscuro para contraste */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Flexbox para un diseño adaptable */
+    flex-direction: column;
+    min-height: 100vh; /* Altura mínima de la viewport */
+}
+
+h1 {
+    text-align: left;
+    font-size: 3rem; /* Tamaño de fuente más grande para el título */
+    margin: 2rem; /* Margenes más grandes para mayor espacio */
+    color: #007bff; /* Color azul para un toque moderno */
+}
+
+.title {
+    color: #000;
+    font-weight: bold;
+}
+
+/* Estilos adicionales para elementos comunes */
+p {
+    line-height: 1.6; /* Espacio entre líneas para mejor legibilidad */
+    margin-bottom: 1rem;
+}
+
+a {
+    color: #007bff; /* Color azul para los enlaces */
+    text-decoration: none; /* Quitar subrayado */
+    &:hover {
+        text-decoration: underline; /* Subrayado al pasar el ratón */
+    }
+}
+
+/* Ejemplo de un contenedor para centrar el contenido */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
